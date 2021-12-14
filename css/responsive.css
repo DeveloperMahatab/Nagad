@@ -1,0 +1,379 @@
+@media (max-width: 1200px){
+    .app-download h2 {
+        font-size: 22px;
+    }
+    .app-download img {
+        width: 22%;
+    }
+    .open-nagad h1 {
+        font-size: 31px;
+    }
+    .open-nagad ul li a {
+        font-size: 15px;
+    }
+    .open-nagad ul li p {
+        font-size: 13px;
+        color: #575757;
+    }
+    .open-nagad ul li {
+        margin-bottom: -12px;
+    }
+    .open-nagad ul li::before {;
+        width: 35px;
+        height: 35px;
+        line-height:35px;
+    }
+    .laptop-display {
+        padding: 128px 0;
+        width: 74%;
+    }
+}
+
+@media (max-width: 1147px){
+    #header-search {
+        top: 55px;
+    }
+    #header-search-input {
+        position: absolute;
+        top: 180px;
+        width: 40%;
+    }
+}
+@media (max-width: 1080px) {
+    .logo {
+        width: 107px;
+    }
+    .app-download h2 {
+        font-size: 22px;
+        margin-top: -4px;
+    }
+    .banner3 {
+        padding: 170px 0;
+    }
+    .exclusive .display-6 {
+        font-size: 30px;
+    }
+    .exclusive .lead {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 991px) {
+    section{
+        overflow: hidden !important;
+    }
+    #menu-bar-icon {
+        color: red;
+        font-size: 26px;
+    }
+    header{
+        padding: 20px;
+    }
+    header .lebel-one{
+        font-size: 20px;
+        color: #000;
+        display: initial;
+    }
+    header .navbar-custom{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: none;
+    }
+    header .navbar-custom ul li{
+        width: 100%;
+    }
+    header .navbar-custom ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    header .navbar-custom ul li ul{
+        visibility: visible;
+        opacity: 1;
+        display: none;
+        left: 50px;
+    }
+    header .navbar-custom ul li:focus-within > ul, header .navbar-custom ul li:checked > ul {
+        display: initial;
+        top: 60px;
+        top: 0px;
+    }
+    #menu-bar:checked ~ .navbar-custom{
+        display: initial;
+    }
+    #header-search {
+        top: 29px;
+        right: 49px;
+    }
+    #header-search-input {
+        position: absolute;
+        top: 120px;
+        width: 70%;
+    }
+    .banner {
+        padding: 205px 0;
+    }
+    .app-download .col-lg-7 {
+        margin: 0px 231px;
+        margin-top: 15px;
+    }
+    .app-download h2 {
+        font-size: 20px;
+        margin-top: -4px;
+    }
+    .app-download img {
+        width: 17%;
+    }
+    .banner2 {
+        padding: 140px 0;
+    }
+    .service-section .col-lg-4 {
+        flex-basis: 50%;
+    }
+    .service-img {
+        width: 80px;
+        height: 80px;
+    }
+    .service-text h3 {
+        font-size: 16px;
+    }
+    .service-text p {
+        font-size: 11px;
+    }
+    .banner3 {
+        padding: 150px 0;
+    }
+    .laptop-display {
+        padding: 170px 0;
+        width: 80%;
+    }
+    .open-nagad .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .testimonial p {
+        width: 90% !important;
+        font-size: 15px;
+    }
+    .testmonial-text.text-light.p-4.w-75 {
+        width: 100% !important;
+    }
+    .testmonial-text.text-light.p-4.w-75 {
+        width: 100% !important;
+    }
+    .testmonial-text {
+        margin-top: 20px;
+        background: red;
+        position: inherit;
+    }
+    .nagad-app h1 {
+        font-size: 28px;
+    }
+    .nagad-app p {
+        font-size: 14px;
+        width: 51%;
+    }
+    .nagad-app a img {
+        width: 17%;
+    }
+    .nagad-img img {
+        position: absolute;
+        top: -195px;
+        right: 114px;
+        width: 20%;
+    }
+    footer img {
+        width: 55%;
+    }
+    footer .col-lg-2 {
+        flex-basis: 25%;
+    }
+    footer .col-lg-3 {
+        flex-basis: 25%;
+    }
+    footer img {
+        width: 100%;
+        margin-top: 23px;
+    }
+    footer .col-lg-3:last-child {
+        flex-basis: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    footer .col-lg-3:last-child img {
+        width: 9%;
+        margin: 18px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .banner {
+        padding: 170px 0;
+    }
+    .app-download .col-lg-7 {
+        margin: 0px 225px;
+        margin-top: 10px;
+    }
+    .banner2 {
+        padding: 95px 0;
+    }
+    .btn.btn-light.btn-lg {
+        font-size: 15px;
+    }
+    .banner3 {
+        padding: 130px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .app-download .col-lg-7 {
+        margin: -5px 168px;
+        margin-top: 10px;
+    }
+    .laptop-display {
+        padding: 126px 0;
+        width: 74%;
+    }
+    .testimonial p {
+        width: 70% !important;
+        font-size: 14px;
+    }
+    .nagad-app p {
+        font-size: 14px;
+        width: 70%;
+    }
+    .nagad-img img {
+        position: absolute;
+        top: -192px;
+        right: -17px;
+        width: 26%;
+    }
+    footer .col-lg-2:nth-child(4) ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .banner {
+        padding: 150px 0;
+    }
+    .banner2 {
+        padding: 80px 0;
+    }
+    .btn.btn-light.btn-lg {
+        font-size: 13px;
+    }
+    .service-img {
+        width: 65px;
+        height: 65px;
+    }
+    .banner3 {
+        padding: 111px 0;
+    }
+}
+@media (max-width: 580px){
+    .open-nagad .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        padding: 0 56px;
+    }
+    .open-nagad .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        padding: 0 35px;
+    }
+    .laptop-display {
+        padding: 114px 0;
+        width: 72%;
+    }
+    .testimonial-banner {
+        width: 100%;
+    }
+    .testimonial p {
+        width: 100% !important;
+        font-size: 13px;
+    }
+}
+@media (max-width: 570px) {
+    .banner {
+        padding: 120px 0;
+    }
+    .app-download h2 {
+        font-size: 17px;
+        margin-top: -14px;
+    }
+    .app-download .col-lg-7 {
+        margin-top: 13px;
+        margin-left: 24%;
+    }
+    .banner2 {
+        padding: 68px 0;
+    }
+    .banner3 {
+        padding: 100px 0;
+    }
+    .laptop-display {
+        padding: 100px 0;
+        width: 71%;
+    }
+    footer .col-lg-3:nth-child(1) {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    footer .col-lg-2:nth-child(2) {
+        flex-basis: 50%;
+    }
+    footer .col-lg-2:nth-child(3) {
+        flex-basis: 50%;
+    }
+    footer .col-lg-2:nth-child(4) {
+        flex-basis: 100%;
+    }
+    footer .col-lg-3:nth-child(5) {
+        flex-basis: 100%;
+    }
+    footer img {
+        width: 33%;
+    }
+    footer .col-lg-2 ul {
+        text-align: center;
+    }
+    footer p.text-center.mt-4.text-muted {
+        font-size: 13px;
+    }
+}
+@media (max-width: 480px) {
+    .service-section .col-lg-4 {
+        flex-basis: 100%;
+    }
+    .service-section p {
+        font-size: 13px;
+        width: 75% !important;
+    }
+    .laptop-display {
+        padding: 90px 0;
+        width: 65%;
+    }
+}
+@media (max-width: 432px) {
+    .banner {
+        padding: 95px 0;
+    }
+    .laptop-display {
+        padding: 79px 0;
+        width: 65%;
+    }
+}
+@media screen and (max-width: 400px) and (min-width: 50px){
+    .banner {
+        padding: 83px 0;
+    }
+    .nagad-img img {
+        display: none;
+    }
+}
